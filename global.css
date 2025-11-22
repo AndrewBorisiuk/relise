@@ -1,7 +1,8 @@
 body {
-    background-color: brown;
+    background-color: #002010;
     margin: 0;
     font-family: sans-serif;
+    color: #FFFFFF;
 }
 
 header, footer{
@@ -33,6 +34,4 @@ a{
         border-right: 1px solid #FFFFFF;
 
     }
-
-    .text
 }
