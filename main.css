@@ -2,3 +2,14 @@
     background-color: #002010;
     color: #fff;
 }
+
+.main-image{
+    min-height: 590px;
+    background-image: url("./img/main_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    *{
+        margin-top: 40px;
+    }
+}
