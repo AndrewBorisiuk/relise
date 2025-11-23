@@ -1,7 +1,20 @@
 .main{
     background-color: #002010;
     color: #fff;
-    button{
+}
+
+.main-image{
+    min-height: 590px;
+    background-image: url("./img/main_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    *{
+        margin-top: 40px;
+    }
+}
+
+button{
         /* Link+Shadow+BackgroundColor */
 
 background: #008945;
@@ -25,15 +38,34 @@ border: none;
 
 
     }
+
+.features-section {
+    background: linear-gradient(rgba(0,40,20,0.5), rgba(0,40,20,0.5)), 
+                url('img/image\ 1.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
-.main-image{
-    min-height: 590px;
-    background-image: url("./img/main_bg.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;
-    *{
-        margin-top: 40px;
-    }
+.card1 {
+    padding: 50px 30px;
+    background-color: #008945;
+    margin-top: 80px;
 }
+
+.news-card {
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: white;
+}
+.news-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.news-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.footer-curve {min-height: 20vh; background-color: #008945; border-top-left-radius: 50% 100px; border-top-right-radius: 50% 100px; padding-top: 80px; margin-top: 80px; }
