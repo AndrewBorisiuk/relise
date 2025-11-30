@@ -32,16 +32,17 @@
     </nav>
     </header>
     <main>
+    <div class="container mt-5">
         <h1>Комодский варан</h1>
         <p>Сучасні ящірки</p>
         <nav class="nav-tabs">
-            <a href="#" class="tab-link" style="border-bottom: 2px solid white;">Огляд</a>
-            <a href="#" class="tab-link">Характеристики</a>
-            <a href="#" class="tab-link">Схожі тварини</a>
+            <a href="#" data-target="info-panel" class="tab-link" style="border-bottom: 2px solid white;">Огляд</a>
+            <a href="#" data-target="details" class="tab-link">Характеристики</a>
+            <a href="#" data-target="same-animals" class="tab-link">Схожі тварини</a>
         </nav>
         <div class="main-content">
         
-        <div class="info-panel">
+        <div class="info-panel animal-block active" id="info-panel">
             <h3 class="section-header">Про нього</h3>
             
             <p class="text-block">Комодський варан –
@@ -62,7 +63,46 @@
             <table class="stats-table">
             </table>
         </div>
+
+        <div class="details animal-block" id="details">
+            <div class="detail-item">
+                <h4>Наукова назва</h4>
+                <p>Varanus komodoensis</p>
+            </div>
+            <div class="detail-item">
+                <h4>Розмір</h4>
+                <p>До 3 метрів</p>
+            </div>
+            <div class="detail-item">
+                <h4>Вага</h4>
+                <p>До 70 кг</p>
+            </div>
+            <div class="detail-item">
+                <h4>Тривалість життя</h4>
+                <p>Близько 30 років</p>
+        </div>
+
+        </div>
+
+        <div class="same-animals animal-block" id="same-animals">
+            <h3 class="section-header">Схожі тварини</h3>
+            <div class="animal-cards">
+                <div class="animal-card">
+                    <img src="img/iguana.png" alt="Ігуана">
+                    <h4>Ігуана</h4>
+                </div>
+                <div class="animal-card">
+                    <img src="img/monitor_lizard.png" alt="Варан">
+                    <h4>Варан</h4>
+                </div>
+                <div class="animal-card">
+                    <img src="img/gila_monster.png" alt="Монстр Гіла">
+                    <h4>Монстр Гіла</h4>
+                </div>
+            </div>
+        </div>
         <img class="hero-image" src="img/comodo_dragon.png" alt="Main Komodo Image">
+    </div>
     </div>
     </main>
      <footer class="footer-curve pt-5 mt-5">

@@ -1,7 +1,17 @@
-.main-content{
-    display: flex;
+main{
     background-color: #008945;
 }
+.main-content{
+    display: flex;
+    height: 80vh;
+   div{
+    width: 70%;
+   }
+}
+.hero-image {
+            max-width: 30%;
+            object-fit: cover;
+        }
 .info-panel {
             flex: 1;
             padding: 40px;
@@ -22,3 +32,10 @@ main{
     padding-top: 100px;
 }
 
+.animal-block{
+    display: none;
+}
+
+.animal-block.active{
+    display: block;
+}
