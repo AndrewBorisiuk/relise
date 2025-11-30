@@ -39,3 +39,6 @@ main{
 .animal-block.active{
     display: block;
 }
+.gallery{
+    background-color: white;
+}

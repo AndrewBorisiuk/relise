@@ -5,7 +5,14 @@
     tabLinks.forEach(link => {
         link.addEventListener('click', function() {
             const target = this.getAttribute('data-target');
-
+            tabContents.forEach(content => {
+                if(content.id===target){
+                    content.classList.add("active")
+                }
+                else{
+                    content.classList.remove("active")
+                }
+            });
             // Пройтись по кожному блоку вмісту
             // перевірити чи id === target
             // якщо так, додати клас active
