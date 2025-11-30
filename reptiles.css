@@ -30,6 +30,7 @@ main{
         }
 main{
     padding-top: 100px;
+    color: white;
 }
 
 .animal-block{
@@ -41,4 +42,6 @@ main{
 }
 .gallery{
     background-color: white;
+    text-align: center;
+    img{width: 20%;object-fit: cover;height: 150px;}
 }
