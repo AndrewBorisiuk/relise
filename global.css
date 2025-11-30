@@ -5,10 +5,6 @@ body {
     color: #FFFFFF;
 }
 
-header, footer{
-    background-color: blueviolet;
-}
-
 a{
     text-decoration: none;
     color: white;
@@ -35,3 +31,4 @@ a{
 
     }
 }
+.footer-curve {min-height: 20vh; background-color: #008945; border-top-left-radius: 50% 100px; border-top-right-radius: 50% 100px; padding-top: 80px; margin-top: 80px; }
