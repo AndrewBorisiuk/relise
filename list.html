@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      .list-main {
+        min-height: 80vh;
+        padding-top: 100px;
+      }
+      .filters {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        button{
+          cursor: pointer;
+        }
+      }
+      .main-title{
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .animal-list{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 900px;
+        align-items: center;
+        margin: 0 auto;
+      }
+      .category-card{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background: white;
+        border-radius: 8px;
+        color: black;
+      }
+
+      .category-card .left{
+        width: 60%;
+      }
+      .category-card .right{
+        width: 35%;
+      }
+      .category-card .right img{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body class="main">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3" style="background: rgba(2, 26, 15, 0.9)">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center gap-2" href="./index.html">
+            <img width="80" src="img/logo.png" alt="" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-uppercase fw-bold">
+              <li class="nav-item"><a class="nav-link text-white px-4" href="./about.html">ПРО НАС</a></li>
+<li class="nav-item"><a class="nav-link text-white px-4" href="./list.html">КАТАЛОГ</a></li>              <li class="nav-item"><a class="nav-link text-white px-4" href="./index.html#news-id">НОВИНИ</a></li>
+            </ul>
+            <button href="#">ПІДТРИМАТИ</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="list-main">
+      <h2 class="main-title">Топовий список рептилій</h2>
+      <div class="filters">
+        <button data-type="all">Всі</button>
+        <button data-type="lizards">Ящірки</button>
+        <button data-type="crocodiles">Крокодили</button>
+        <button data-type="snakes">Змії</button>
+        <button data-type="others">Інші</button>
+      </div>
+
+      <section class="animal-list">
+        <div class="category-card" data-category="lizards">
+          <div class="left">
+            <h2>Супер ящірки</h2>
+          <p>Такі собі ящірки</p>
+
+          <div class="desc">There are perhaps no more than 1,000 individuals of the Endangered Chinese crocodile lizard — which is found in southern China and northern Vietnam — remaining in the wild today.</div>
+          </div>
+          <div class="right">
+            <img src="img/gallery 1.png" alt="">
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-curve pt-5 mt-5">
+      <div class="container pt-5">
+        <div class="text-center mt-5 copyright">@ All rights reserved</div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="list.js" defer></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
