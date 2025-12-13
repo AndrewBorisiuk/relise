@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="reptiles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="main">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3" style="background: rgba(2, 26, 15, 0.9)">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center gap-2" href="./index.html">
+            <img width="80" src="img/logo.png" alt="" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-uppercase fw-bold">
+              <li class="nav-item"><a class="nav-link text-white px-4" href="./about.html">ПРО НАС</a></li>
+              <li class="nav-item"><a class="nav-link text-white px-4" href="./list.html">КАТАЛОГ</a></li>
+              <li class="nav-item"><a class="nav-link text-white px-4" href="./index.html#news-id">НОВИНИ</a></li>
+            </ul>
+            <button href="#">ПІДТРИМАТИ</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container mt-5">
+        <h1>Анаконда</h1>
+        <p>Сучасні змії</p>
+        <nav class="nav-tabs">
+          <a href="#" data-target="info-panel" class="tab-link" style="border-bottom: 2px solid white">Огляд</a>
+          <a href="#" data-target="details" class="tab-link">Характеристики</a>
+          <a href="#" data-target="same-animals" class="tab-link">Схожі тварини</a>
+        </nav>
+        <div class="main-content">
+          <div class="info-panel animal-block active" id="info-panel">
+            <h3 class="section-header">Про неї</h3>
+
+            <p class="text-block">
+              Анаконда - це рід великих напівводних змій сімейства удавів, що мешкають у Південній Америці, відома своєю масивністю, особливо зелена анаконда (Eunectes murinus), яка вважається однією з найважчих змій у світі, здатною полювати на велику видобуток, стискаючи її в кільцях. Також "Анаконда" - назва популярного дистрибутива мови програмування Python для науки про дані та машинне навчання, а також франшизи фільмів жахів.
+            </p>
+            <h3 class="section-header" style="font-size: 16px">Ареал і проблема безпеки виду</h3>
+            <ul class="text-block">
+              <p>
+                Анаконда населяє всю тропічну частину Південної Америки на схід від Анд: Венесуелу, Бразилію, Колумбію, Еквадор, східний Парагвай, північну Болівію, північно-східний Перу, Гайану, Французьку Гвіану, а також острів Тринідад.
+              </p>
+              <p>
+                Через важкодоступність місць проживання анаконди вченим важко оцінити її чисельність і простежити за динамікою популяції. Принаймні у Міжнародній Червоній книзі охоронний статус анаконди в категорії «загроза не оцінювалася» (англ. Not Evaluated, NE) — через брак даних.Але загалом, мабуть, анаконду можна поки що вважати поза загрозою. У зоопарках світу анаконд багато, але вони приживаються в неволі досить непросто. Максимальний термін життя анаконди в тераріумі - 28 років, але зазвичай у неволі ці змії живуть 5-6 років.
+              </p>
+            <h3 class="section-header" style="font-size: 16px">Спосіб життя</h3>
+            <p class="text-block">
+              Анаконда веде майже повністю водний спосіб життя. Вона тримається в тихих, слабопроточних рукавах річок, затоках, старих і озерках басейну Амазонки та Оріноко.
+              У таких водоймах змія чатує на видобуток. Вона ніколи не відповзає далеко від води, хоча нерідко вилазить на берег і гріється на сонці, іноді забираючись на нижні гілки дерев. Анаконда чудово плаває і пірнає і може залишатися під водою, при цьому ніздрі її закриваються спеціальними клапанами.
+              При пересиханні водоймища анаконда переповзає в інший або спускається нижче за течією річки. У посушливий період, який буває в деяких місцях проживання анаконди, змія заривається в донний мул і впадає в заціпеніння, в якому залишається до дощів.
+              Під водою відбувається і линяння анаконди. У неволі доводилося спостерігати, як змія, занурившись у басейн, трється черевом об його дно і поступово стягує з себе стару шкуру.
+            </p>
+            <table class="stats-table"></table>
+          </div>
+
+          <div class="details animal-block" id="details">
+            <div class="detail-item">
+              <h4>Види</h4>
+              <p>Рід включає 4 види, наприклад, зелену анаконду (найбільший вид).</p>
+            </div>
+            <div class="detail-item">
+              <h4>Розмір</h4>
+              <p>Середня довжина дорослої особини 5-8 метрів, хоча зустрічаються і більші екземпляри; за вагою вона перевершує всіх змій.</p>
+            </div>
+            <div class="detail-item">
+              <h4>Місце проживання</h4>
+              <p>Тропічні райони Південної Америки, болота, повільні річки.</p>
+            </div>
+            <div class="detail-item">
+              <h4>Образ життя</h4>
+              <p>Напівводний, чудово плаває, полює із засідки.</p>
+            </div>
+            <div class="detail-item">
+              <h4>Харчування</h4>
+              <p>Ссавці, птахи, риби, каймани.</p>
+            </div>
+          </div>
+
+          <div class="same-animals animal-block" id="same-animals">
+            <h3 class="section-header">Схожі тварини</h3>
+            <div class="animal-cards">
+              <div class="animal-card">
+                <img src="img/iguana.png" alt="Пітон" />
+                <h4>Пітон</h4>
+              </div>
+              <div class="animal-card">
+                <img src="img/frilled_lizard.png" alt="Кобра" />
+                <h4>Кобра</h4>
+              </div>
+              <div class="animal-card">
+                <img src="img/gila_monster.png" alt="Кораловий аспід" />
+                <h4>Кораловий аспід</h4>
+              </div>
+              <div class="animal-card">
+                <img src="img/iguana.png" alt="Гримуча змія" />
+                <h4>Гримуча змія</h4>
+              </div>
+              <div class="animal-card">
+                <img src="img/frilled_lizard.png" alt="Чорна мамба" />
+                <h4>Чорна мамба</h4>
+              </div>
+              <div class="animal-card">
+                <img src="img/gila_monster.png" alt="Рогата гадюка" />
+                <h4>Рогата гадюка</h4>
+              </div>
+              <div class="animal-card">
+                <img src="img/iguana.png" alt="Бумсланг" />
+                <h4>Бумсланг</h4>
+              </div>
+              <div class="animal-card">
+                <img src="img/frilled_lizard.png" alt="Летюча змія райська" />
+                <h4>Летюча змія райська</h4>
+              </div>
+              <div class="animal-card">
+                <img src="img/gila_monster.png" alt="Королівська змія" />
+                <h4>Королівська змія</h4>
+              </div>
+            </div>
+          </div>
+          <img class="hero-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Sucuri_verde.jpg/250px-Sucuri_verde.jpg" alt="Main Komodo Image" />
+        </div>
+      </div>
+      <section class="gallery pt-5">
+        <div class="container">
+          <img class="gallery-item" src="https://cdn.hswstatic.com/gif/shutterstock-595154282.jpg" alt="Gallery 1" />
+          <img class="gallery-item" src="https://cdn.britannica.com/53/5553-050-44912CBD/Green-anaconda.jpg" alt="Gallery 1" />
+          <img class="gallery-item" src="https://worldanimalfoundation.org/wp-content/uploads/2023/01/Lifespan-review-1.jpg" alt="Gallery 1" />
+          <img class="gallery-item" src="https://static.vecteezy.com/system/resources/thumbnails/053/389/661/small/green-anaconda-resting-by-riverbank-in-lush-tropical-jungle-landscape-photo.jpg" alt="Gallery 1" />
+        </div>
+      </section>
+    </main>
+    <footer class="footer-curve pt-5 mt-5">
+      <div class="container pt-5">
+        <div class="text-center mt-5 copyright">@ All rights reserved</div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
