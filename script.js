@@ -19,3 +19,14 @@
             //інакше видалити клас active
         });
     });
+
+    let hero = document.querySelector(".main-image");
+  
+anime({
+    targets: [hero],
+    opacity: [0, 1],
+    translateY: [20, 0],
+    easing: 'easeOutQuad',
+    duration: 5000,
+    delay: anime.stagger(200),
+  });
