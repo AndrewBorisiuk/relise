@@ -45,3 +45,15 @@ main{
     text-align: center;
     img{width: 20%;object-fit: cover;height: 150px;}
 }
+.tab-link{
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #004d40;
+    color: white;
+    margin-right: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-sizing: border-box;
+    display: inline-block;
+    border: none;
+}

@@ -39,7 +39,7 @@
         <h1>Комодский варан</h1>
         <p>Сучасні ящірки</p>
         <nav class="nav-tabs">
-          <a href="#" data-target="info-panel" class="tab-link" style="border-bottom: 2px solid white">Огляд</a>
+          <a href="#" data-target="info-panel" class="tab-link">Огляд</a>
           <a href="#" data-target="details" class="tab-link">Характеристики</a>
           <a href="#" data-target="same-animals" class="tab-link">Схожі тварини</a>
         </nav>
@@ -143,6 +143,9 @@
       </div>
       <section class="gallery pt-5">
         <div class="container">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
           <img class="gallery-item" src="img/gallery 1.png" alt="Gallery 1" />
           <img class="gallery-item" src="img/gallery 2.png" alt="Gallery 1" />
           <img class="gallery-item" src="img/gallery 3.png" alt="Gallery 1" />
@@ -155,6 +158,15 @@
         <div class="text-center mt-5 copyright">@ All rights reserved</div>
       </div>
     </footer>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img class="gallery-item" src="img/gallery 1.png" alt="Gallery 1" />
+      </div>
+    </div>
+  </div>
+</div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
