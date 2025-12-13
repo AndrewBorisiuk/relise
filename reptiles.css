@@ -1,59 +1,67 @@
-main{
-    background-color: #008945;
+main {
+  background-color: #008945;
 }
-.main-content{
-    display: flex;
-    height: 80vh;
-   div{
+.main-content {
+  display: flex;
+  height: 80vh;
+  div {
     width: 70%;
-   }
+  }
 }
 .hero-image {
-            max-width: 30%;
-            object-fit: cover;
-        }
+  max-width: 30%;
+  object-fit: cover;
+}
 .info-panel {
-            flex: 1;
-            padding: 40px;
-            /* колір тексту (білий) */
-        }
-        .section-header {
-            font-size: 20px;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-            /* жирний шрифт */
-        }
-        .text-block {
-            line-height: 1.5;
-            font-size: 14px;
-            margin-bottom: 20px;
-        }
-main{
-    padding-top: 100px;
-    color: white;
+  flex: 1;
+  padding: 40px;
+  /* колір тексту (білий) */
+}
+.section-header {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  /* жирний шрифт */
+}
+.text-block {
+  line-height: 1.5;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+main {
+  padding-top: 100px;
+  color: white;
 }
 
-.animal-block{
-    display: none;
+.animal-block {
+  display: none;
 }
 
-.animal-block.active{
-    display: block;
+.animal-block.active {
+  display: block;
 }
-.gallery{
-    background-color: white;
-    text-align: center;
-    img{width: 20%;object-fit: cover;height: 150px;}
+.gallery {
+  background-color: white;
+  text-align: center;
+  img {
+    width: 20%;
+    object-fit: cover;
+    height: 150px;
+  }
 }
-.tab-link{
-    cursor: pointer;
-    padding: 10px 20px;
-    background-color: #004d40;
-    color: white;
-    margin-right: 5px;
-    border-radius: 5px;
-    text-decoration: none;
-    box-sizing: border-box;
-    display: inline-block;
-    border: none;
+.tab-link {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #004d40;
+  color: white;
+  margin-right: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  box-sizing: border-box;
+  display: inline-block;
+  border: none;
+}
+.modal-body img {
+  width: 100%;
+  height: auto;
 }
