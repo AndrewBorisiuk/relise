@@ -3,7 +3,7 @@ main {
 }
 .main-content {
   display: flex;
-  height: 80vh;
+  min-height: 80vh;
   div {
     width: 70%;
   }
