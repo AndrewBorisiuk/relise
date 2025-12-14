@@ -61,6 +61,23 @@
         object-fit: cover;
         border-radius: 8px;
       }
+
+      @media screen and (max-width: 768px) {
+        .filters {
+          overflow: scroll;
+        }
+        .category-card {
+          flex-direction: column;
+          text-align: center;
+        }
+        .category-card .left,
+        .category-card .right {
+          width: 100%;
+        }
+        .category-card .right {
+          margin-top: 15px;
+        }
+      }
     </style>
   </head>
   <body class="main">
