@@ -9,3 +9,17 @@
   padding: 40px 20px;
   margin-top: 40px;
 }
+
+.pet1 ul {
+  text-align: left;
+}
+
+.pet1 {
+  background-color: white;
+  color: black;
+  padding: 40px 20px;
+}
+
+.pet_gecko {
+  max-width: 300px;
+}
