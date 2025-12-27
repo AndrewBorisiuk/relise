@@ -18,5 +18,30 @@ filterButtons.forEach((button) => {
   });
 });
 
-const searchButtons = document.querySelectorAll('.search-form button');
-const searchInputs = document.querySelectorAll('.search-form input');
+const searchForm = document.querySelector('.search-form');
+const searchButtons = document.querySelector('.search-form button');
+const searchInputs = document.querySelector('.search-form input');
+
+// Коли користувач натискає кнопку пошуку
+// Маємо отримати значення з поля вводу
+// Перевірити у всіз карточок чи містить їх текст це значення
+// Якщо містить - показати карточку
+// Якщо не містить - сховати карточку
+
+searchForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+  let query = searchInputs.value.toLowerCase();
+
+   items.forEach((item) => {
+    let title = item.querySelector('h2').textContent.toLowerCase();
+
+    if (title.includes(query)) {
+      item.style.display = 'flex';
+    } else {
+      item.style.display = 'none';
+    }
+
+    console.log('title=', title)
+   });
+});
+
