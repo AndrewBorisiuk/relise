@@ -17,3 +17,6 @@ filterButtons.forEach((button) => {
     });
   });
 });
+
+const searchButtons = document.querySelectorAll('.search-form button');
+const searchInputs = document.querySelectorAll('.search-form input');
