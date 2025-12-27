@@ -32,16 +32,17 @@ searchForm.addEventListener('submit', (e) => {
   e.preventDefault();
   let query = searchInputs.value.toLowerCase();
 
-   items.forEach((item) => {
+  items.forEach((item) => {
     let title = item.querySelector('h2').textContent.toLowerCase();
+    let text = item.querySelector('p').textContent.toLowerCase();
+    let details = item.querySelector('.desc').textContent.toLowerCase();
 
-    if (title.includes(query)) {
+    if (title.includes(query) || text.includes(query) || details.includes(query)) {
       item.style.display = 'flex';
     } else {
       item.style.display = 'none';
     }
 
-    console.log('title=', title)
-   });
+    console.log('title=', title);
+  });
 });
-
