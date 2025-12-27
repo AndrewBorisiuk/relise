@@ -127,10 +127,34 @@
     </div>
     <section class="gallery pt-5">
         <div class="container">
-            <img class="gallery-item" src="https://upload.wikimedia.org/wikipedia/commons/1/10/Galapagos_dominance_display.jpg" alt="Gallery 1">
-            <img class="gallery-item" src="https://kor.ill.in.ua/m/610x386/2204496.jpg" alt="Gallery 1">
-            <img class="gallery-item" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Giant_Tortoise.jpg/330px-Giant_Tortoise.jpg" alt="Gallery 1">
-            <img class="gallery-item" src="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/102DD/production/_126496266_gettyimages-571667281.jpg.webp" alt="Gallery 1">
+            <img 
+            class="gallery-item" 
+            src="https://upload.wikimedia.org/wikipedia/commons/1/10/Galapagos_dominance_display.jpg" 
+            alt="Gallery 1"
+            data-bs-toggle="modal"
+            data-bs-target="#photo1"
+            />
+            <img 
+            class="gallery-item" 
+            src="https://kor.ill.in.ua/m/610x386/2204496.jpg" 
+            alt="Gallery 1" 
+            data-bs-toggle="modal"
+            data-bs-target="#photo2"
+            />
+            <img 
+            class="gallery-item" 
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Giant_Tortoise.jpg/330px-Giant_Tortoise.jpg" 
+            alt="Gallery 1"
+            data-bs-toggle="modal"
+            data-bs-target="#photo3"
+            />
+            <img 
+            class="gallery-item" 
+            src="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/102DD/production/_126496266_gettyimages-571667281.jpg.webp" 
+            alt="Gallery 1"
+            data-bs-toggle="modal"
+            data-bs-target="#photo4"
+            />
         </div>
       </section>
     </main>
@@ -139,6 +163,47 @@
         <div class="text-center mt-5 copyright">@ All rights reserved</div>
       </div>
     </footer>
+
+    <div class="modal fade" id="photo1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img class="gallery-item" src="https://upload.wikimedia.org/wikipedia/commons/1/10/Galapagos_dominance_display.jpg" alt="Gallery 1" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="photo2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img class="gallery-item" src="https://kor.ill.in.ua/m/610x386/2204496.jpg" alt="Gallery 2" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="photo3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img class="gallery-item" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Giant_Tortoise.jpg/330px-Giant_Tortoise.jpg" alt="Gallery 3" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="photo4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img class="gallery-item" src="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/102DD/production/_126496266_gettyimages-571667281.jpg.webp" alt="Gallery 4" />
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"

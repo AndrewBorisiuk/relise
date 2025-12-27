@@ -137,10 +137,32 @@
       </div>
       <section class="gallery pt-5">
         <div class="container">
-          <img class="gallery-item" src="https://cdn.hswstatic.com/gif/shutterstock-595154282.jpg" alt="Gallery 1" />
-          <img class="gallery-item" src="https://cdn.britannica.com/53/5553-050-44912CBD/Green-anaconda.jpg" alt="Gallery 1" />
-          <img class="gallery-item" src="https://worldanimalfoundation.org/wp-content/uploads/2023/01/Lifespan-review-1.jpg" alt="Gallery 1" />
-          <img class="gallery-item" src="https://static.vecteezy.com/system/resources/thumbnails/053/389/661/small/green-anaconda-resting-by-riverbank-in-lush-tropical-jungle-landscape-photo.jpg" alt="Gallery 1" />
+          <img 
+          class="gallery-item" 
+          src="https://cdn.hswstatic.com/gif/shutterstock-595154282.jpg" 
+          alt="Gallery 1" 
+          data-bs-toggle="modal"
+          data-bs-target="#photo1"
+          />
+          <img 
+          class="gallery-item" 
+          src="https://cdn.britannica.com/53/5553-050-44912CBD/Green-anaconda.jpg" 
+          alt="Gallery 1" 
+          data-bs-toggle="modal"
+          data-bs-target="#photo2"
+          />
+          <img class="gallery-item" 
+          src="https://worldanimalfoundation.org/wp-content/uploads/2023/01/Lifespan-review-1.jpg" 
+          alt="Gallery 1" 
+          data-bs-toggle="modal"
+          data-bs-target="#photo3"
+          />
+          <img class="gallery-item" 
+          src="https://static.vecteezy.com/system/resources/thumbnails/053/389/661/small/green-anaconda-resting-by-riverbank-in-lush-tropical-jungle-landscape-photo.jpg" 
+          alt="Gallery 1" 
+          data-bs-toggle="modal"
+            data-bs-target="#photo4"
+          />
         </div>
       </section>
     </main>
@@ -149,6 +171,47 @@
         <div class="text-center mt-5 copyright">@ All rights reserved</div>
       </div>
     </footer>
+
+    <div class="modal fade" id="photo1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img class="gallery-item" src="https://cdn.hswstatic.com/gif/shutterstock-595154282.jpg" alt="Gallery 1" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="photo2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img class="gallery-item" src="https://cdn.britannica.com/53/5553-050-44912CBD/Green-anaconda.jpg" alt="Gallery 2" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="photo3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img class="gallery-item" src="https://worldanimalfoundation.org/wp-content/uploads/2023/01/Lifespan-review-1.jpg" alt="Gallery 3" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="photo4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img class="gallery-item" src="https://static.vecteezy.com/system/resources/thumbnails/053/389/661/small/green-anaconda-resting-by-riverbank-in-lush-tropical-jungle-landscape-photo.jpg" alt="Gallery 4" />
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
