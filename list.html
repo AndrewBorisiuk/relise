@@ -61,7 +61,10 @@
         object-fit: cover;
         border-radius: 8px;
       }
-
+      .search-form {
+        display: flex;
+        justify-content: center;
+      }
       @media screen and (max-width: 768px) {
         .filters {
           overflow: scroll;
@@ -110,6 +113,28 @@
         <button data-type="snakes">Змії</button>
         <button data-type="others">Інші</button>
       </div>
+      <form class="search-form mb-4" action="#" method="GET">
+        <input
+          type="text"
+          name="search"
+          id="search-input"
+          placeholder="Пошук рептилій..."
+          style="padding: 10px; width: 100%; max-width: 400px; border-radius: 5px; border: 1px solid #ccc"
+        />
+        <button
+          type="submit"
+          style="
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            background: #28a745;
+            color: white;
+            cursor: pointer;
+          "
+        >
+          Пошук
+        </button>
+      </form>
 
       <section class="animal-list">
         <div class="category-card" data-category="lizards">
@@ -132,8 +157,8 @@
             <p>Такі собі крокодили</p>
 
             <div class="desc">
-             Гребенястий крокодил –
-              Крокодил гребенястий, гребінчастий, або морський (Crocodylus porosus) — вид крокодила, що мешкає в солоних водоймах.
+              Гребенястий крокодил – Крокодил гребенястий, гребінчастий, або морський (Crocodylus porosus) — вид
+              крокодила, що мешкає в солоних водоймах.
             </div>
           </div>
           <a href="crocodiles.html" class="right">
@@ -146,8 +171,8 @@
             <p>Такі собі змії</p>
 
             <div class="desc">
-            Анаконда - це рід великих напівводних змій сімейства удавів, що мешкають у Південній Америці, відома своєю масивністю, особливо зелена анаконда (Eunectes murinus).
-
+              Анаконда - це рід великих напівводних змій сімейства удавів, що мешкають у Південній Америці, відома своєю
+              масивністю, особливо зелена анаконда (Eunectes murinus).
             </div>
           </div>
           <a href="snakes.html" class="right">
@@ -160,8 +185,9 @@
             <p>Такі собі черепахи</p>
 
             <div class="desc">
-             Галапагонська черепаха –
-            Галапагоська черепаха (або слонова черепаха) — це найбільша сучасна сухопутна черепаха, ендемік Галапагоських островів, відома своїми величезними розмірами, довгожительством і повільним способом життя.
+              Галапагонська черепаха – Галапагоська черепаха (або слонова черепаха) — це найбільша сучасна сухопутна
+              черепаха, ендемік Галапагоських островів, відома своїми величезними розмірами, довгожительством і
+              повільним способом життя.
             </div>
           </div>
           <a href="turtles.html" class="right">
