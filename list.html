@@ -87,14 +87,32 @@
           margin-top: 15px;
         }
       }
-      .fill {
-        --color: #fff;
-        --hover: #008945;
+
+      @-webkit-keyframes pulse {
+        0% {
+          box-shadow: 0 0 0 0 #008945;
+        }
       }
-      .fill:hover,
-      .fill:focus {
-        box-shadow: inset 0 0 0 2em var(--hover);
+
+      @keyframes pulse {
+        0% {
+          box-shadow: 0 0 0 0 #008945;
+        }
       }
+      button {
+          color: #fff;
+          transition: 0.25s;
+        }
+      button:hover, button:focus {
+          border-color: #008945;
+          color: #fff;
+        }
+        .pulse:hover,
+        .pulse:focus {
+          -webkit-animation: pulse 1.5s;
+                  animation: pulse 1.5s;
+          box-shadow: 0 0 0 2em transparent;
+        }
     </style>
   </head>
   <body class="main">
@@ -121,11 +139,11 @@
     <main class="list-main">
       <h2 class="main-title">Топовий список рептилій</h2>
       <div class="filters">
-        <button data-type="all" class="fill">Всі</button>
-        <button data-type="lizards" class="fill">Ящірки</button>
-        <button data-type="crocodiles" class="fill">Крокодили</button>
-        <button data-type="snakes" class="fill">Змії</button>
-        <button data-type="others" class="fill">Інші</button>
+        <button data-type="all" class="pulse">Всі</button>
+        <button data-type="lizards" class="pulse">Ящірки</button>
+        <button data-type="crocodiles" class="pulse">Крокодили</button>
+        <button data-type="snakes" class="pulse">Змії</button>
+        <button data-type="others" class="pulse">Інші</button>
       </div>
       <form class="search-form mb-4" action="#" method="GET">
         <input
