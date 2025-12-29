@@ -27,12 +27,11 @@
           cursor: pointer;
           background: transparent;
           border: 2px solid #008945;
-        
-      }
-      button.active {
-        background-color: #008945;
-        color: white;
-      }
+        }
+        button.active {
+          background-color: #008945;
+          color: white;
+        }
       }
       .main-title {
         text-align: center;
@@ -88,6 +87,14 @@
           margin-top: 15px;
         }
       }
+      .fill {
+        --color: #fff;
+        --hover: #008945;
+      }
+      .fill:hover,
+      .fill:focus {
+        box-shadow: inset 0 0 0 2em var(--hover);
+      }
     </style>
   </head>
   <body class="main">
@@ -114,11 +121,11 @@
     <main class="list-main">
       <h2 class="main-title">Топовий список рептилій</h2>
       <div class="filters">
-        <button data-type="all">Всі</button>
-        <button data-type="lizards">Ящірки</button>
-        <button data-type="crocodiles">Крокодили</button>
-        <button data-type="snakes">Змії</button>
-        <button data-type="others">Інші</button>
+        <button data-type="all" class="fill">Всі</button>
+        <button data-type="lizards" class="fill">Ящірки</button>
+        <button data-type="crocodiles" class="fill">Крокодили</button>
+        <button data-type="snakes" class="fill">Змії</button>
+        <button data-type="others" class="fill">Інші</button>
       </div>
       <form class="search-form mb-4" action="#" method="GET">
         <input
@@ -323,7 +330,7 @@
         </div>
         <div class="category-card" data-category="snakes">
           <div class="left">
-            <h2> Королівська кобра</h2>
+            <h2>Королівська кобра</h2>
             <p>Такі собі змії</p>
 
             <div class="desc">
@@ -404,7 +411,7 @@
         </div>
         <div class="category-card" data-category="others">
           <div class="left">
-            <h2> Шкіряста черепаха</h2>
+            <h2>Шкіряста черепаха</h2>
             <p>Такі собі черепахи</p>
 
             <div class="desc">
@@ -438,7 +445,7 @@
         </div>
         <div class="category-card" data-category="others">
           <div class="left">
-            <h2> Червоновуха черепаха</h2>
+            <h2>Червоновуха черепаха</h2>
             <p>Такі собі черепахи</p>
 
             <div class="desc">
