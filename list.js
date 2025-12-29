@@ -5,11 +5,13 @@ filterButtons.forEach((button) => {
   button.addEventListener('click', () => {
     // Отримати тип фільтра з атрибута data-type
     let type = button.getAttribute('data-type');
-
+    filterButtons.forEach((btn) => btn.classList.remove('active'));
+   
     items.forEach((item) => {
       // Порівняти тип фільтра з атрибутом data-category елемента
       if (item.getAttribute('data-category') === type || type === 'all') {
         item.style.display = 'flex';
+         button.classList.add('active');
       } else {
         // Сховати елемент
         item.style.display = 'none';
