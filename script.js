@@ -30,3 +30,24 @@ anime({
     duration: 5000,
     delay: anime.stagger(200),
   });
+
+  //Перевірка чи є імя в кукі файлі
+  
+
+let savedName = '';
+let isCookieSaved = false;
+ let cookiesList = document.cookie.split('; ');
+
+ console.log(document.cookie, 'document.cookie')
+    for(let i = 0; i < cookiesList.length; i++){
+        let name_and_value =  cookiesList[i].split('=');
+        if (name_and_value[0] == 'user-name') {
+            isCookieSaved = true;
+            savedName = name_and_value[1];
+        }
+    };
+
+    //Перевіряємо чи знайшли імя
+    // Якщо є, привітати користувача з іменем
+  // Якщо ні, запитати імя користувача і зберегти його в кукі файл
+  
