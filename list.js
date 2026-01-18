@@ -6,12 +6,12 @@ filterButtons.forEach((button) => {
     // Отримати тип фільтра з атрибута data-type
     let type = button.getAttribute('data-type');
     filterButtons.forEach((btn) => btn.classList.remove('active'));
-   
+
     items.forEach((item) => {
       // Порівняти тип фільтра з атрибутом data-category елемента
       if (item.getAttribute('data-category') === type || type === 'all') {
         item.style.display = 'flex';
-         button.classList.add('active');
+        button.classList.add('active');
       } else {
         // Сховати елемент
         item.style.display = 'none';
@@ -53,15 +53,12 @@ const likeBtns = document.querySelectorAll('.like');
 
 likeBtns.forEach((btn, index) => {
   btn.addEventListener('click', () => {
-
-    if(btn.classList.contains('liked')) {
-      // Відмінити лайк
-      // Видалити клас liked
-      // Видалити кукі
-    }else{
-      // Поставити лайк
-      // Додати клас liked
-      // Додати кукі
+    if (btn.classList.contains('liked')) {
+      btn.classList.remove('liked');
+      document.cookie = 'liked-animal-' + index + '=; max age=0';
+    } else {
+      btn.classList.add('liked');
+      document.cookie = 'liked-animal-' + index + '=true; max-age=31536000';
     }
   });
 });
@@ -73,7 +70,8 @@ cookies.forEach((cookie) => {
   if (name.startsWith('liked-animal-') && value === 'true') {
     let index = parseInt(name.split('-')[2]);
 
-    //Первірити чи існує кнопка лайк з таким індексом
-    //Якщо існує, додати їй клас liked
+    if (likeBtns[index]) {
+      likeBtns[index].classList.add('liked');
+    }
   }
 });
