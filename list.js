@@ -48,3 +48,26 @@ searchForm.addEventListener('submit', (e) => {
     console.log('title=', title);
   });
 });
+
+const likeBtns = document.querySelectorAll('.like');
+likeBtns.forEach((btn, index) => {
+  btn.addEventListener('click', () => {
+    if(btn.classList.contains('liked')) {
+         document.cookie = `liked-animal-${index}=false ;max-age=0`;
+    }else{
+      document.cookie = `liked-animal-${index}=true ;max-age=100000000`;
+    }
+    btn.classList.toggle('liked');
+  });
+});
+
+const cookies = document.cookie.split('; ');
+cookies.forEach((cookie) => {
+  let [name, value] = cookie.split('=');
+  if (name.startsWith('liked-animal-') && value === 'true') {
+    let index = parseInt(name.split('-')[2]);
+    if (likeBtns[index]) {
+      likeBtns[index].classList.add('liked');
+    }
+  }
+});
