@@ -63,6 +63,7 @@ likeBtns.forEach((btn, index) => {
   });
 });
 
+let liked_modal = document.getElementById('liked_reptiles').querySelector('.modal-body');
 const cookies = document.cookie.split('; ');
 cookies.forEach((cookie) => {
   let [name, value] = cookie.split('=');
@@ -72,6 +73,9 @@ cookies.forEach((cookie) => {
 
     if (likeBtns[index]) {
       likeBtns[index].classList.add('liked');
+      // додати в liked modal відповідну карточку по індексу ( додати cloneNode(true))
+      liked_modal.appendChild(likeBtns[index].cloneNode(true));
     }
   }
 });
+
