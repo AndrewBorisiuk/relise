@@ -50,24 +50,30 @@ searchForm.addEventListener('submit', (e) => {
 });
 
 const likeBtns = document.querySelectorAll('.like');
+
 likeBtns.forEach((btn, index) => {
   btn.addEventListener('click', () => {
+
     if(btn.classList.contains('liked')) {
-         document.cookie = `liked-animal-${index}=false ;max-age=0`;
+      // Відмінити лайк
+      // Видалити клас liked
+      // Видалити кукі
     }else{
-      document.cookie = `liked-animal-${index}=true ;max-age=100000000`;
+      // Поставити лайк
+      // Додати клас liked
+      // Додати кукі
     }
-    btn.classList.toggle('liked');
   });
 });
 
 const cookies = document.cookie.split('; ');
 cookies.forEach((cookie) => {
   let [name, value] = cookie.split('=');
+
   if (name.startsWith('liked-animal-') && value === 'true') {
     let index = parseInt(name.split('-')[2]);
-    if (likeBtns[index]) {
-      likeBtns[index].classList.add('liked');
-    }
+
+    //Первірити чи існує кнопка лайк з таким індексом
+    //Якщо існує, додати їй клас liked
   }
 });
