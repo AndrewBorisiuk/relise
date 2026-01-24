@@ -74,8 +74,7 @@ cookies.forEach((cookie) => {
     if (likeBtns[index]) {
       likeBtns[index].classList.add('liked');
       // додати в liked modal відповідну карточку по індексу ( додати cloneNode(true))
-      liked_modal.appendChild(likeBtns[index].cloneNode(true));
+      liked_modal.appendChild(items[index].cloneNode(true));
     }
   }
 });
-

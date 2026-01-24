@@ -23,3 +23,8 @@
 .pet_gecko {
   max-width: 300px;
 }
+
+.accordion {
+  max-width: 1200px;
+  margin: 10px auto;
+}
