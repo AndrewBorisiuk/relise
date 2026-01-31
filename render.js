@@ -27,10 +27,9 @@ async function renderCards() {
       card.classList.add('category-card');
       card.setAttribute('data-category', item.category);
 
-      // В тебе картка поки пуста в змінній card, додаємо вміст card.innerHTML = ...
-      // Вміст ми берем коли киликаємо функцію renderCard() і в неї передаємо item
+      card.innerHTML = renderCard(item);
 
-      // container.appendChild(А вот тут має бути змінна в якій є код нашої картки);
+      container.appendChild(card);
     });
   } catch (e) {
     console.error('Error fetching data:', e);
