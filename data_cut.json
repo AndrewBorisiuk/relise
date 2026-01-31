@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "category": "lizards",
+    "title": "Комодський варан",
+    "description": "Такі собі ящірки",
+    "fullDescription": "Комодський варан – це найбільша ящірка у світі, яка може досягати 2 метрів у довжину і важити 70 кг, а також є одним із найнебезпечніших хижаків.",
+    "pageUrl": "lizards.html",
+    "imgUrl": "img/gallery 1.png"
+  },
+  {
+    "id": 2,
+    "category": "lizards",
+    "title": "Ігуана звичайна",
+    "description": "Такі собі ящірки",
+    "fullDescription": "Ігуана звичайна[1] (Iguana iguana) — представник роду Ігуана з родини Ігуанових. Інша назва «зелена ігуана». Загальна довжина становить 1,7 м, дуже рідко близько 2 м, майже три чверті цієї довжини доводиться на тонкий, загострений хвіст. Маса може досягати 8 кг.",
+    "pageUrl": "lizards.html",
+    "imgUrl": "https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2dldHR5aW1hZ2VzLTE3NDcwMTc1NzMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo4Mjh9fX0="
+  }
+]

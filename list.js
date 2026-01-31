@@ -1,14 +1,20 @@
 const filterButtons = document.querySelectorAll('.filters button');
 const items = document.querySelectorAll('.category-card');
 
+console.log('Items:', items);
+
 filterButtons.forEach((button) => {
   button.addEventListener('click', () => {
+    console.log('Filter button clicked');
     // Отримати тип фільтра з атрибута data-type
     let type = button.getAttribute('data-type');
     filterButtons.forEach((btn) => btn.classList.remove('active'));
 
-    items.forEach((item) => {
+    const items2 = document.querySelectorAll('.category-card');
+    console.log(items2, 'items to filter');
+    items2.forEach((item) => {
       // Порівняти тип фільтра з атрибутом data-category елемента
+      console.log('item category=', item.getAttribute('data-category'), ' filter type=', type);
       if (item.getAttribute('data-category') === type || type === 'all') {
         item.style.display = 'flex';
         button.classList.add('active');

@@ -1,0 +1,173 @@
+[
+  {
+    "id": 1,
+    "category": "lizards",
+    "title": "Комодський варан",
+    "description": "Такі собі ящірки",
+    "fullDescription": "Комодський варан – це найбільша ящірка у світі, яка може досягати 2 метрів у довжину і важити 70 кг, а також є одним із найнебезпечніших хижаків.",
+    "pageUrl": "lizards.html",
+    "imgUrl": "img/gallery 1.png"
+  },
+  {
+    "id": 2,
+    "category": "lizards",
+    "title": "Ігуана звичайна",
+    "description": "Такі собі ящірки",
+    "fullDescription": "Ігуана звичайна[1] (Iguana iguana) — представник роду Ігуана з родини Ігуанових. Інша назва «зелена ігуана». Загальна довжина становить 1,7 м, дуже рідко близько 2 м, майже три чверті цієї довжини доводиться на тонкий, загострений хвіст. Маса може досягати 8 кг.",
+    "pageUrl": "lizards.html",
+    "imgUrl": "https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2dldHR5aW1hZ2VzLTE3NDcwMTc1NzMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo4Mjh9fX0="
+  },
+  {
+    "id": 3,
+    "category": "lizards",
+    "title": "Молох",
+    "description": "Такі собі ящірки",
+    "fullDescription": "Молох (Moloch horridus) — єдиний представник роду Молох з родини Агамових. Інша назва «колючий диявол». У цієї ящірки маленька вузька голова, щільний розширений тулуб, потужні лапи з короткими пальцями і невеликий хвіст, що тупо закінчується",
+    "pageUrl": "lizards.html",
+    "imgUrl": "https://t4.com.ua/wp-content/uploads/2024/09/thorny-devil.jpg"
+  },
+  {
+    "id": 4,
+    "category": "lizards",
+    "title": "Плащоносна ящірка",
+    "description": "Такі собі ящірки",
+    "fullDescription": "Плащоносна ящірка (Chlamydosaurus kingii) — єдиний представник представник роду Chlamydosaurus з родини Агамових. Має на шиї широкій, зазублений по краях комірець або плащ, перерваному лише на потилиці й глибоко поділений в області горла.",
+    "pageUrl": "lizards.html",
+    "imgUrl": "https://st2.depositphotos.com/51368864/47298/i/450/depositphotos_472982256-stock-photo-frill-necked-lizard-displaying-frill.jpg"
+  },
+  {
+    "id": 5,
+    "category": "lizards",
+    "title": "Хамелеон",
+    "description": "Такі собі ящірки",
+    "fullDescription": "Хамелеони — це самобутня та високоспеціалізована клада ящірок Старого Світу, яка станом на червень 2015 року налічує 200 видів. Члени цієї родини найбільш відомі своїм виразним діапазоном кольорів, будучи здатними до камуфляжу зі зміною кольору.",
+    "pageUrl": "lizards.html",
+    "imgUrl": "img/image 5.png"
+  },
+  {
+    "id": 6,
+    "category": "lizards",
+    "title": "Василіск шоломоносний",
+    "description": "Такі собі ящірки",
+    "fullDescription": "Василіск шоломоносний (Basiliscus plumifrons) — представник роду василісків з родини Шоломових ящірок. Інша назва «зелений василіск». Полюбляє вологі тропічні ліси. Віддає перевагу заростям по берегах річок. Це чудові плавці, здатні залишатися під водою протягом пів години.",
+    "pageUrl": "lizards.html",
+    "imgUrl": "https://exomania.com.ua/images/Articles_Images/Image/%D0%A8%D0%BB%D0%B5%D0%BC%D0%BE%D0%BD%D0%BE%D1%81%D0%BD%D1%8B%D0%B9_%D0%B2%D0%B0%D1%81%D0%B8%D0%BB%D0%B8%D1%81%D0%BA.jpg"
+  },
+  {
+    "id": 7,
+    "category": "lizards",
+    "title": "Дракон летючий",
+    "description": "Такі собі ящірки",
+    "fullDescription": "Дракон летючий[1] (Draco volans) — вид плазунів, представник роду летючих драконів з родини Агамових. Має тонке приплюснуте тіло і довгий хвіст. З боків розташовані широкі шкірясті складки, натягнуті між шістьма «хибними» ребрами. При їх розкритті утворюються своєрідні «крила», за допомогою яких дракони можуть планувати в повітрі на відстань до 60 метрів.",
+    "pageUrl": "lizards.html",
+    "imgUrl": "https://mors.in.ua/uploads/posts/2019-01/1548186153_1548176644137412234.png"
+  },
+  {
+    "id": 8,
+    "category": "crocodiles",
+    "title": "Гребенястий крокодил",
+    "description": "Такі собі крокодили",
+    "fullDescription": "Гребенястий крокодил – Крокодил гребенястий, гребінчастий, або морський (Crocodylus porosus) — вид крокодила, що мешкає в солоних водоймах.",
+    "pageUrl": "crocodiles.html",
+    "imgUrl": "img/image 2.png"
+  },
+  {
+    "id": 9,
+    "category": "crocodiles",
+    "title": "Алігатор",
+    "description": "Такі собі крокодили",
+    "fullDescription": "Алігатор — це велика рептилія з роду Алігатор родини Алігаторових (Alligatoridae) ряду Крокодилових (Crocodilia). Два існуючі види — американський алігатор та китайський алігатор. Крім того, за скам'янілими залишками відомо кілька вимерлих видів алігаторів.",
+    "pageUrl": "crocodiles.html",
+    "imgUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGz8WOPg-5ccq9E3RgvdAvAGu5fH4Q2z1KN9PlvVAnY7tTuxE1GxYRw40UfrfWp3uabQoVtBl6asJN0V1ioUYPr5GqnhQ5tc5XiWlMobW2blG2mlfSfhO1lDzB_LLWEM2DIIZGvmao9BAf/s1600/aligator.jpg"
+  },
+  {
+    "id": 10,
+    "category": "snakes",
+    "title": "Анаконда",
+    "description": "Такі собі змії",
+    "fullDescription": "Анаконда - це рід великих напівводних змій сімейства удавів, що мешкають у Південній Америці, відома своєю масивністю, особливо зелена анаконда (Eunectes murinus).",
+    "pageUrl": "snakes.html",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Sucuri_verde.jpg/250px-Sucuri_verde.jpg"
+  },
+  {
+    "id": 11,
+    "category": "snakes",
+    "title": "Пітони",
+    "description": "Такі собі змії",
+    "fullDescription": "Пітони — родина неотруйних змій, що мешкають в Африці, Азії та Австралії. Серед її представників є одні з найбільших змій у світі. Наразі визнано десять родів та 39 видів.",
+    "pageUrl": "snakes.html",
+    "imgUrl": "img/image 6(1).png"
+  },
+  {
+    "id": 12,
+    "category": "snakes",
+    "title": "Королівська кобра",
+    "description": "Такі собі змії",
+    "fullDescription": "Королівська кобра (Ophiophagus hannah) — єдиний вид роду Ophiophagus родини аспідові. Королівська кобра досягає розмірів 3—4 м. Найдовша відома особина має довжину 5,85 м. На голові за потиличними щитками розташовані напівкільцем ще 6 великих щитків.",
+    "pageUrl": "snakes.html",
+    "imgUrl": "https://images.unian.net/photos/2025_04/thumb_files/1200_0_1745764342-9829.jpg"
+  },
+  {
+    "id": 13,
+    "category": "snakes",
+    "title": "Кораловий аспід",
+    "description": "Такі собі змії",
+    "fullDescription": "Кораловий аспід звичайний (Micrurus corallinus) — вид отруйних змій родини аспідових (Elapidae)[2]. Мешкає в Південній Америці. У забарвленні характерне чергування широких червоних й більше вузьких чорних кілець, відділених один від одного тонкими ясно-жовтими смужками.",
+    "pageUrl": "snakes.html",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Micrurus_tener.jpg"
+  },
+  {
+    "id": 14,
+    "category": "snakes",
+    "title": "Ямкоголо́ві",
+    "description": "Такі собі змії",
+    "fullDescription": "Ямкоголо́ві, або гриму́чникові (Crotalinae) — підродина отруйних змій. Головною ознакою гримучих змій є глибокі термочутливі (чутливі до інфрачервоного випромінювання) западини з обох боків голови між ніздрями і очима, які не з'єднані ні з носом, ні з очима.",
+    "pageUrl": "snakes.html",
+    "imgUrl": "https://i.ytimg.com/vi/6ODACANcE7Q/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGGUgVihQMA8=&rs=AOn4CLBaSa6aN6ayFeDeHl3sJEhkawteMA"
+  },
+  {
+    "id": 15,
+    "category": "others",
+    "title": "Галапагонська черепахи",
+    "description": "Такі собі черепахи",
+    "fullDescription": "Галапагонська черепаха – Галапагоська черепаха (або слонова черепаха) — це найбільша сучасна сухопутна черепаха, ендемік Галапагоських островів, відома своїми величезними розмірами, довгожительством і повільним способом життя.",
+    "pageUrl": "turtles.html",
+    "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2nTlmDt59hGefnIk1WUqimUHi52NainuHug&s"
+  },
+  {
+    "id": 16,
+    "category": "others",
+    "title": "Зелена черепаха",
+    "description": "Такі собі черепахи",
+    "fullDescription": "Зелена черепаха (Chelonia mydas) — велика морська черепаха родини Cheloniidae, єдиний представник свого роду (Chelonia)[3]. Її ареал включає тропічні та субтропічні моря світу, із двома окремими популяціями в Атлантичному і Тихому океанах.",
+    "pageUrl": "turtles.html",
+    "imgUrl": "http://127.0.0.1:5500/img/image%201.png"
+  },
+  {
+    "id": 17,
+    "category": "others",
+    "title": "Шкіряста черепаха",
+    "description": "Такі собі черепахи",
+    "fullDescription": "Шкіряста черепаха[2] (Dermochelys coriacea) — найбільша сучасна черепаха у світі[3]. Єдиний представник своєї родини. Довжина цих черепах зазвичай складає 1,3–1,8 м, а маса — 300–500 кг[4]. Найбільший[5][4] відомий екземпляр мав довжину 2,6 м, розмах передніх ластів 2,5 м і масу 916 кг[6].",
+    "pageUrl": "turtles.html",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Leatherback_sea_turtle_Tinglar%2C_USVI_%285839996547%29.jpg/1200px-Leatherback_sea_turtle_Tinglar%2C_USVI_%285839996547%29.jpg"
+  },
+  {
+    "id": 18,
+    "category": "others",
+    "title": "Грифова черепаха",
+    "description": "Такі собі черепахи",
+    "fullDescription": "Грифова черепаха — подібна за зовнішнім виглядом до кайманової черепахи. Її можна відрізнити за направленими убік очима, по більш довгому гачкуватому дзьобу на верхній щелепі і по ряду надкраєвих щитків, що лежать між бічними і крайовими. Рогові щитки карапакса зазвичай утворюють на спині три поздовжніх пилкоподібних гребеня.",
+    "pageUrl": "turtles.html",
+    "imgUrl": "https://wildfauna.ru/wp-content/uploads/2019/07/grifovaja-cherepaha-7.jpg"
+  },
+  {
+    "id": 19,
+    "category": "others",
+    "title": "Червоновуха черепаха",
+    "description": "Такі собі черепахи",
+    "fullDescription": "Червоновуха черепаха (Trachemys scripta elegans) належить до родини прісноводних черепах (Emydidae). Здатність цих черепах жити в слабопроточних водоймах, переживати порівняно низькі температури і живитись будь-якими залишками дозволила їм розселитися далеко за межі свого природного ареалу.",
+    "pageUrl": "turtles.html",
+    "imgUrl": "https://blog.tetra.net/ru/ru/wp-content/uploads/2020/08/krasnouhaya-cherepaha.jpg"
+  }
+]
