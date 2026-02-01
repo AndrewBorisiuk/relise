@@ -169,5 +169,185 @@
     "fullDescription": "Червоновуха черепаха (Trachemys scripta elegans) належить до родини прісноводних черепах (Emydidae). Здатність цих черепах жити в слабопроточних водоймах, переживати порівняно низькі температури і живитись будь-якими залишками дозволила їм розселитися далеко за межі свого природного ареалу.",
     "pageUrl": "turtles.html",
     "imgUrl": "https://blog.tetra.net/ru/ru/wp-content/uploads/2020/08/krasnouhaya-cherepaha.jpg"
+  },
+  {
+    "id": 1,
+    "category": "lizards",
+    "title": "Тегу аргентинський",
+    "description": "Великі ящірки",
+    "fullDescription": "Аргентинський тегу — велика наземна ящірка з родини тегуанових, відома високим інтелектом і всеїдністю.",
+    "pageUrl": "lizards.html",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Argentine_Black_and_White_Tegu_%28Salvator_merianae%29_male_-_Flickr_-_berniedup.jpg"
+  },
+  {
+    "id": 2,
+    "category": "lizards",
+    "title": "Сцинк синьоязикий",
+    "description": "Незвичайні ящірки",
+    "fullDescription": "Синьоязикий сцинк легко впізнається за яскраво-синім язиком, який використовує для відлякування хижаків.",
+    "pageUrl": "lizards.html",
+    "imgUrl": "img/skink.png"
+  },
+  {
+    "id": 3,
+    "category": "lizards",
+    "title": "Гекон леопардовий",
+    "description": "Нічні ящірки",
+    "fullDescription": "Леопардовий гекон — популярна домашня рептилія, активна переважно вночі.",
+    "pageUrl": "lizards.html",
+    "imgUrl": "img/gecko.png"
+  },
+  {
+    "id": 4,
+    "category": "lizards",
+    "title": "Варан нільський",
+    "description": "Хижі ящірки",
+    "fullDescription": "Нільський варан — одна з найбільших ящірок Африки, чудово плаває та полює.",
+    "pageUrl": "lizards.html",
+    "imgUrl": "img/nile-monitor.png"
+  },
+  {
+    "id": 5,
+    "category": "lizards",
+    "title": "Агама бородата",
+    "description": "Пустельні ящірки",
+    "fullDescription": "Бородата агама отримала назву через здатність розпушувати шкіряний мішок під горлом.",
+    "pageUrl": "lizards.html",
+    "imgUrl": "img/bearded-dragon.png"
+  },
+  {
+    "id": 6,
+    "category": "snakes",
+    "title": "Удав звичайний",
+    "description": "Великі змії",
+    "fullDescription": "Удав звичайний — неотруйна змія, яка вбиває здобич шляхом стискання.",
+    "pageUrl": "snakes.html",
+    "imgUrl": "img/boa.png"
+  },
+  {
+    "id": 7,
+    "category": "snakes",
+    "title": "Гадюка звичайна",
+    "description": "Отруйні змії",
+    "fullDescription": "Гадюка звичайна — єдина отруйна змія, що широко поширена в Україні.",
+    "pageUrl": "snakes.html",
+    "imgUrl": "img/viper.png"
+  },
+  {
+    "id": 8,
+    "category": "snakes",
+    "title": "Мамба чорна",
+    "description": "Небезпечні змії",
+    "fullDescription": "Чорна мамба — одна з найшвидших і найотруйніших змій у світі.",
+    "pageUrl": "snakes.html",
+    "imgUrl": "img/black-mamba.png"
+  },
+  {
+    "id": 9,
+    "category": "snakes",
+    "title": "Тайпан внутрішній",
+    "description": "Отруйні змії",
+    "fullDescription": "Внутрішній тайпан вважається найбільш отруйною сухопутною змією у світі.",
+    "pageUrl": "snakes.html",
+    "imgUrl": "img/taipan.png"
+  },
+  {
+    "id": 10,
+    "category": "snakes",
+    "title": "Полоз жовточеревий",
+    "description": "Неотруйні змії",
+    "fullDescription": "Жовточеревий полоз — велика та агресивна, але неотруйна змія.",
+    "pageUrl": "snakes.html",
+    "imgUrl": "img/rat-snake.png"
+  },
+  {
+    "id": 11,
+    "category": "crocodiles",
+    "title": "Кайман чорний",
+    "description": "Хижі крокодили",
+    "fullDescription": "Чорний кайман — найбільший хижак Амазонії серед плазунів.",
+    "pageUrl": "crocodiles.html",
+    "imgUrl": "img/black-caiman.png"
+  },
+  {
+    "id": 12,
+    "category": "crocodiles",
+    "title": "Крокодил нільський",
+    "description": "Великі крокодили",
+    "fullDescription": "Нільський крокодил — один із найнебезпечніших хижаків Африки.",
+    "pageUrl": "crocodiles.html",
+    "imgUrl": "img/nile-crocodile.png"
+  },
+  {
+    "id": 13,
+    "category": "others",
+    "title": "Кайманова черепаха",
+    "description": "Хижі черепахи",
+    "fullDescription": "Кайманова черепаха має потужні щелепи та агресивний характер.",
+    "pageUrl": "turtles.html",
+    "imgUrl": "img/snapping-turtle.png"
+  },
+  {
+    "id": 14,
+    "category": "others",
+    "title": "Слонова черепаха альдабрська",
+    "description": "Великі черепахи",
+    "fullDescription": "Альдабрська черепаха — одна з найбільших сухопутних черепах у світі.",
+    "pageUrl": "turtles.html",
+    "imgUrl": "img/aldabra-turtle.png"
+  },
+  {
+    "id": 15,
+    "category": "others",
+    "title": "М’якотіла черепаха",
+    "description": "Водяні черепахи",
+    "fullDescription": "М’якотілі черепахи мають плоский панцир і дуже швидко плавають.",
+    "pageUrl": "turtles.html",
+    "imgUrl": "img/softshell-turtle.png"
+  },
+  {
+    "id": 16,
+    "category": "lizards",
+    "title": "Аноліс зелений",
+    "description": "Дрібні ящірки",
+    "fullDescription": "Зелений аноліс здатний змінювати забарвлення залежно від настрою та температури.",
+    "pageUrl": "lizards.html",
+    "imgUrl": "img/anole.png"
+  },
+  {
+    "id": 17,
+    "category": "lizards",
+    "title": "Ящірка прудка",
+    "description": "Європейські ящірки",
+    "fullDescription": "Прудка ящірка поширена в Європі та добре пристосована до різних середовищ.",
+    "pageUrl": "lizards.html",
+    "imgUrl": "img/sand-lizard.png"
+  },
+  {
+    "id": 18,
+    "category": "snakes",
+    "title": "Уж звичайний",
+    "description": "Безпечні змії",
+    "fullDescription": "Уж звичайний — неотруйна змія, часто зустрічається біля водойм.",
+    "pageUrl": "snakes.html",
+    "imgUrl": "img/grass-snake.png"
+  },
+  {
+    "id": 19,
+    "category": "others",
+    "title": "Туатара",
+    "description": "Реліктові рептилії",
+    "fullDescription": "Туатара — унікальна рептилія, що збереглася з часів динозаврів.",
+    "pageUrl": "others.html",
+    "imgUrl": "img/tuatara.png"
+  },
+  {
+    "id": 20,
+    "category": "others",
+    "title": "Крокодил гавіал",
+    "description": "Рідкісні крокодили",
+    "fullDescription": "Гавіал має дуже вузьку морду та спеціалізується на ловлі риби.",
+    "pageUrl": "crocodiles.html",
+    "imgUrl": "img/gharial.png"
   }
 ]

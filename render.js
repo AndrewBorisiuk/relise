@@ -17,10 +17,13 @@ function renderCard(item) {
           `;
 }
 
-async function renderCards() {
+async function renderCards(startIdx = 0, endIdx = 10) {
   try {
     let data = await fetch('data.json');
     data = await data.json();
+
+    //в змінну Data зберігати лише частину масиву від startIdx до endIdx
+    // метод slice
 
     data.forEach((item) => {
       const card = document.createElement('div');
@@ -37,3 +40,10 @@ async function renderCards() {
 }
 
 renderCards();
+
+let loadBtn = document.getElementById('load-more');
+loadBtn.addEventListener('click', () => {
+  const renderedCardsCount = document.querySelectorAll('.category-card').length;
+
+  renderCards(renderedCardsCount, renderedCardsCount + 10);
+});
