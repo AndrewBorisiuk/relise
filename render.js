@@ -22,8 +22,7 @@ async function renderCards(startIdx = 0, endIdx = 10) {
     let data = await fetch('data.json');
     data = await data.json();
 
-    //в змінну Data зберігати лише частину масиву від startIdx до endIdx
-    // метод slice
+    data = data.slice(startIdx, endIdx);
 
     data.forEach((item) => {
       const card = document.createElement('div');
