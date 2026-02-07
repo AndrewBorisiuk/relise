@@ -14,6 +14,10 @@
     />
 
     <style>
+      .additional {
+        text-align: center;
+        margin: 20px;
+      }
       .list-main {
         min-height: 80vh;
         padding-top: 100px;
@@ -125,9 +129,6 @@
           background-image: url('img/like2.svg');
         }
       }
-      .load-more {
-        margin: 0 auto;
-      }
     </style>
   </head>
   <body class="main">
@@ -184,12 +185,14 @@
         </button>
       </form>
 
-      <div class="additional" style="text-align: center; margin: 20px">
+      <div class="additional">
         <button data-bs-toggle="modal" data-bs-target="#liked_reptiles">Улюлені</button>
       </div>
 
       <section class="animal-list"></section>
-      <button id="load-more" class="pulse load-more">Завантажити ще</button>
+      <div class="additional">
+        <button id="load-more" class="pulse load-more">Завантажити ще</button>
+      </div>
     </main>
 
     <div class="modal fade" id="liked_reptiles" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
