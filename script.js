@@ -33,21 +33,17 @@ anime({
 
 let savedName = '';
 let isCookieSaved = false;
-let cookiesList = document.cookie.split('; ');
 
-console.log(document.cookie, 'document.cookie');
-for (let i = 0; i < cookiesList.length; i++) {
-  let name_and_value = cookiesList[i].split('=');
-  if (name_and_value[0] == 'user-name') {
-    isCookieSaved = true;
-    savedName = name_and_value[1];
-  }
+if (localStorage.getItem('user-name')) {
+  isCookieSaved = true;
+  savedName = localStorage.getItem('user-name');
 }
+
 if (isCookieSaved) {
-  alert('Вітаємо знову, ' + decodeURIComponent(savedName) + '!');
+  alert('Вітаємо знову, ' + savedName + '!');
 } else {
   let name = prompt('Скажіть нам ваше імя!');
-  document.cookie = `user-name=${name} ;max-age=100000000`;
+  localStorage.setItem('user-name', name);
 }
 
 let FirstAnimation = new Promise(function (resolve, reject) {
