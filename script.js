@@ -50,23 +50,30 @@ if (isCookieSaved) {
   document.cookie = `user-name=${name} ;max-age=100000000`;
 }
 
-let typing = document.querySelector('.typing');
+let FirstAnimation = new Promise(function (resolve, reject) {
+  let typing = document.querySelector('.typing');
 
-let text = 'вітаємо вас дорогі читачі';
+  let text = 'вітаємо вас дорогі читачі';
 
-for (let i = 0; i < text.length; i++) {
-  setTimeout(function () {
-    typing.innerHTML += text[i];
-  }, 100 * i);
-}
+  for (let i = 0; i < text.length; i++) {
+    setTimeout(function () {
+      typing.innerHTML += text[i];
+      if (i === text.length - 1) {
+        resolve();
+      }
+    }, 100 * i);
+  }
+});
 
-let paragraph = document.querySelector('.paragraph');
+FirstAnimation.then(function () {
+  let paragraph = document.querySelector('.paragraph');
 
-let text2 =
-  'Тут ви зможете знайти різні цікаві факти про рептилій.Світ рептилій з Андрієм Борисюком Зануртеся у захоплюючий світ холоднокровних! Тут ви зможете знайти різні цікаві факти про рептилій, їхній спосіб життя та унікальні особливості. Досліджуйте, дивуйтесь та дізнавайтесь нове!';
+  let text2 =
+    'Тут ви зможете знайти різні цікаві факти про рептилій.Світ рептилій з Андрієм Борисюком Зануртеся у захоплюючий світ холоднокровних! Тут ви зможете знайти різні цікаві факти про рептилій, їхній спосіб життя та унікальні особливості. Досліджуйте, дивуйтесь та дізнавайтесь нове!';
 
-for (let i = 0; i < text2.length; i++) {
-  setTimeout(function () {
-    paragraph.innerHTML += text2[i];
-  }, 100 * i);
-}
+  for (let i = 0; i < text2.length; i++) {
+    setTimeout(function () {
+      paragraph.innerHTML += text2[i];
+    }, 100 * i);
+  }
+});
