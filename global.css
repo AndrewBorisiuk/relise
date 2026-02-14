@@ -58,3 +58,6 @@ button,
   padding-top: 80px;
   margin-top: 80px;
 }
+.dark {
+  background: rgb(54, 54, 54) !important;
+}

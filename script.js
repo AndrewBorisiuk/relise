@@ -73,3 +73,7 @@ FirstAnimation.then(function () {
     }, 100 * i);
   }
 });
+
+document.querySelector('.change-bg').onclick = () => {
+  document.body.classList.toggle('dark');
+};
